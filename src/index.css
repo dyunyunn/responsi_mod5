@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Mengubah kursor jadi bentuk tangan untuk semua elemen interaktif */
+button, 
+a, 
+select, 
+label,
+input[type="file"] {
+  cursor: pointer !important;
+}
